@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<!--Форматы анимации-->
+
+	<title>Animation</title>
+
+	<style media="screen">
+		.anim-container {
+			display: flex;
+			justify-content: space-between;
+			max-width: 760px;
+			align-items: center;
+		}
+
+		.anim-images {
+			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+		.anim-screenshot {
+			position: absolute;
+			z-index: 1;
+		}
+
+		.anim-tab--selected {
+			color: #343434;
+		}
+
+		#anim-vk {
+			width: 449px;
+			height: 394px;
+			margin-top: 0%;
+			animation: vk-animation 12s infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+		#anim-tw {
+			width: 449px;
+			margin-top: 0%;
+			animation: tw-animation 12s infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+		#anim-fb {
+			width: 449px;
+			margin-top: 0%;
+			animation: fb-animation 12s infinite;
+			animation-timing-function: ease-in-out;
+		}
+
+		@keyframes vk-animation {
+			0% {
+				margin-top: 2%;
+			}
+			50% {
+				margin-top: -14%;
+			}
+			100% {
+				margin-top: 2%;
+			}
+		}
+
+		@keyframes tw-animation {
+			0% {
+				margin-top: 2%;
+			}
+			50% {
+				margin-top: -10%;
+			}
+			100% {
+				margin-top: 2%;
+			}
+		}
+
+		@keyframes fb-animation {
+			0% {
+				margin-top: 2%;
+			}
+			50% {
+				margin-top: -20.5%;
+			}
+			100% {
+				margin-top: 2%;
+			}
+		}
+
+		.anim-macbook {
+			z-index: 2;
+		}
+
+		#anim-tabsContainer ul {
+			list-style-type: none;
+			font-family: Fira Sans;
+			font-weight: 500;
+			font-size: 18px;
+			margin-top: -70%;
+			line-height: 30px;
+		}
+
+		#anim-tabsContainer {
+			color: #65A3BE;
+		}
+
+		#anim-tabsContainer li:hover {
+			color: #343434;
+			cursor: pointer;
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="anim-container">
+		<div class="anim-images">
+			<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 570 334.2;" style="enable-background:new 0 0 570 334.2; width:554px; z-index:3;" xml:space="preserve">
+			<style type="text/css">
+				.st0-macbook{fill:#FFFFFF;}
+				.st1-macbook{fill:#FFFFFF;stroke:#DADADA;}
+				.st2-macbook{fill:#DADADA;}
+				.st3-macbook{fill:#FFFFFF;stroke:#DADADA;stroke-width:3;}
+			</style>
+			<rect x="51.8" y="323" class="st0-macbook" width="467" height="10.2"/>
+			<rect id="Прямоугольник_3" x="51.8" y="0" class="st0-macbook" width="470" height="11"/>
+			<path id="Прямоугольник_скругл._углы_1" class="st1-macbook" d="M521.8,316V11c0-5.5-4.5-10-10-10h-450
+				c-5.5,0-10,4.5-10,10v305h11V12h449v304H521.8z"/>
+			<g id="Прямоугольник_скругл._углы_1_копия_2_">
+				<path class="st2-macbook" d="M511.8,4c3.9,0,7,3.1,7,7v302h-464V11c0-3.9,3.1-7,7-7H511.8 M511.8,1h-450c-5.5,0-10,4.5-10,10v305h470V11
+					C521.8,5.5,517.3,1,511.8,1L511.8,1z"/>
+			</g>
+			<path id="Фигура_1_2_" class="st3-macbook" d="M11.4,321c0,0,25.9,8,35,8h480.7c0,0,27-3.6,35-8H11.4z"/>
+			<g id="Прямоугольник_2">
+				<path class="st0-macbook" d="M11.3,321.5c-0.8,0-1.5-0.7-1.5-1.5v-5.5h554v5.5c0,0.8-0.7,1.5-1.5,1.5H11.3z"/>
+				<path class="st2-macbook" d="M562.3,316v4h-551v-4H562.3 M565.3,313H8.3v7c0,1.7,1.3,3,3,3h551c1.7,0,3-1.3,3-3V313L565.3,313z"/>
+			</g>
+			</svg>
+
+
+			<svg version="1.1" class="anim-screenshot" id="anim-vk" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 394" style="enable-background:new 0 0 449 394;" xml:space="preserve">
+				<style type="text/css">
+					.st0-vk {
+						fill: #FFFFFF;
+					}
+					.st1-vk {
+						fill: #BFC6D0;
+					}
+					.st2-vk {
+						fill: #75A0B3;
+					}
+					.st3-vk {
+						fill: none;
+						stroke: #BFC6D0;
+					}
+				</style>
+				<rect id="Прямоугольник_1" y="0" class="st0-vk" width="449" height="394"/>
+				<path id="Фигура_1" class="st1-vk" d="M0,18v-1h449v1H0z"/>
+				<g id="Прямоугольник_3_копия">
+					<path class="st1-vk" d="M418,102v29H99v-29H418 M419,101H98v31h321V101L419,101z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_1">
+					<path class="st1-vk" d="M185,5c2.5,0,4.5,1.8,4.5,4s-2,4-4.5,4h-82c-2.5,0-4.5-1.8-4.5-4s2-4,4.5-4H185 M185,4h-82c-3,0-5.5,2.2-5.5,5
+					c0,2.8,2.5,5,5.5,5h82c3,0,5.5-2.2,5.5-5C190.5,6.2,188,4,185,4L185,4z"/>
+				</g>
+				<g id="Прямоугольник_4_копия">
+					<path class="st1-vk" d="M411,113v10h-62v-10H411 M412,112h-64v12h64V112L412,112z"/>
+				</g>
+				<g id="Прямоугольник_4_копия_2">
+					<path class="st1-vk" d="M336,113v10h-62v-10H336 M337,112h-64v12h64V112L337,112z"/>
+				</g>
+				<circle id="Эллипс_1" class="st1-vk" cx="34" cy="32" r="3"/>
+				<circle id="Эллипс_1_копия" class="st1-vk" cx="34" cy="43" r="3"/>
+				<circle id="Эллипс_1_копия_2" class="st1-vk" cx="34" cy="55" r="3"/>
+				<circle id="Эллипс_1_копия_3" class="st1-vk" cx="34" cy="66" r="3"/>
+				<circle id="Эллипс_1_копия_4" class="st1-vk" cx="34" cy="77" r="3"/>
+				<circle id="Эллипс_1_копия_5" class="st1-vk" cx="34" cy="88" r="3"/>
+				<circle id="Эллипс_1_копия_6" class="st1-vk" cx="34" cy="100" r="3"/>
+				<circle id="Эллипс_1_копия_7" class="st1-vk" cx="34" cy="111" r="3"/>
+				<circle id="Эллипс_1_копия_10" class="st1-vk" cx="113" cy="117" r="7"/>
+				<circle id="Эллипс_1_копия_11" class="st1-vk" cx="35" cy="8" r="4.5"/>
+				<circle id="Эллипс_1_копия_8" class="st1-vk" cx="34" cy="122" r="3"/>
+				<rect id="Прямоугольник_5" x="42" y="31" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия" x="42" y="42" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_2" x="42" y="54" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_3" x="42" y="65" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_4" x="42" y="76" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_5" x="42" y="87" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_6" x="42" y="99" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_7" x="42" y="110" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_8" x="42" y="121" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_10" x="127" y="114" class="st1-vk" width="26" height="2"/>
+				<rect id="Прямоугольник_5_копия_10_1_" x="127" y="118.7" class="st1-vk" width="26" height="2"/>
+				<circle id="Эллипс_1_копия_9" class="st1-vk" cx="34" cy="142" r="3"/>
+				<circle id="Эллипс_1_копия_9-2" class="st1-vk" cx="34" cy="153" r="3"/>
+				<circle id="Эллипс_1_копия_9-3" class="st1-vk" cx="34" cy="164" r="3"/>
+				<rect id="Прямоугольник_5_копия_9" x="42" y="141" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_9-2" x="42" y="152" class="st1-vk" width="33" height="2"/>
+				<rect id="Прямоугольник_5_копия_9-3" x="42" y="163" class="st1-vk" width="33" height="2"/>
+				<g id="Прямоугольник_6">
+					<path class="st1-vk" d="M418,139v53h-91v-53H418 M419,138h-93v55h93V138L419,138z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_5">
+					<path class="st1-vk" d="M319,139v114H99V139H319 M320,138H98v116h222V138L320,138z"/>
+				</g>
+				<rect id="Прямоугольник_6_копия_6" x="98" y="259" class="st2-vk" width="222" height="128"/>
+				<g id="Прямоугольник_6_копия">
+					<path class="st1-vk" d="M418,200v17h-91v-17H418 M419,199h-93v19h93V199L419,199z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_2">
+					<path class="st1-vk" d="M418,225v17h-91v-17H418 M419,224h-93v19h93V224L419,224z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_3">
+					<path class="st1-vk" d="M418,250v69h-91v-69H418 M419,249h-93v71h93V249L419,249z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_4_2_">
+					<path class="st1-vk" d="M418,327v76h-91v-76H418 M419,326h-93v78h93V326L419,326z"/>
+				</g>
+				<path class="st3-vk" d="M98,102"/>
+				<g>
+					<path class="st1-vk" d="M418,26.8V101H99V26.8H418 M419,25.8H98V102h321V25.8L419,25.8z"/>
+				</g>
+			</svg>
+
+			<svg version="1.1" class="anim-screenshot" id="anim-tw" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 449 370" style="enable-background:new 0 0 449 370;" xml:space="preserve">
+				<style type="text/css">
+					.st0-tw {
+						fill: #FFFFFF;
+					}
+					.st1-tw {
+						fill: #BFC6D0;
+					}
+					.st2-tw {
+						fill: none;
+						stroke: #BFC6D0;
+					}
+					.st3-tw {
+						fill: #75A0B3;
+					}
+				</style>
+				<rect id="Прямоугольник_1" y="0" class="st0-tw" width="449" height="394"/>
+				<g id="Слой_2">
+					<g>
+						<path class="st1-tw" d="M415,114v120.2H177V114H415 M416,113H176v122.2h240V113L416,113z"/>
+					</g>
+				</g>
+				<rect id="Прямоугольник_7" y="0" class="st2-tw" width="449" height="370"/>
+				<circle id="Эллипс_2" class="st1-tw" cx="66.5" cy="9.5" r="4.5"/>
+				<path id="Фигура_1" class="st1-tw" d="M0,18v-1h449v1H0z"/>
+				<path id="Фигура_1_копия" class="st1-tw" d="M176,132v-1h240v1H176z"/>
+				<g id="Прямоугольник_8">
+					<path class="st1-tw" d="M448,85v21H1V85H448 M449,84H0v23h449V84L449,84z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_2">
+					<path class="st1-tw" d="M206.5,91c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5h-17c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5H206.5 M206.5,90h-17
+					c-3,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5h17c3,0,5.5-2.5,5.5-5.5S209.5,90,206.5,90L206.5,90z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_2_копия">
+					<path class="st1-tw" d="M245.5,91c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5h-17c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5H245.5 M245.5,90h-17
+					c-3,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5h17c3,0,5.5-2.5,5.5-5.5S248.5,90,245.5,90L245.5,90z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_2_копия_2">
+					<path class="st1-tw" d="M284.5,91c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5h-17c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5H284.5 M284.5,90h-17
+					c-3,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5h17c3,0,5.5-2.5,5.5-5.5S287.5,90,284.5,90L284.5,90z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_2_копия_3">
+					<path class="st1-tw" d="M323.5,91c2.5,0,4.5,2,4.5,4.5s-2,4.5-4.5,4.5h-17c-2.5,0-4.5-2-4.5-4.5s2-4.5,4.5-4.5H323.5 M323.5,90h-17
+					c-3,0-5.5,2.5-5.5,5.5s2.5,5.5,5.5,5.5h17c3,0,5.5-2.5,5.5-5.5S326.5,90,323.5,90L323.5,90z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_3">
+					<path class="st1-tw" d="M408.5,89c3.6,0,6.5,2.9,6.5,6.5s-2.9,6.5-6.5,6.5h-29c-3.6,0-6.5-2.9-6.5-6.5s2.9-6.5,6.5-6.5H408.5
+					 M408.5,88h-29c-4.1,0-7.5,3.4-7.5,7.5c0,4.1,3.4,7.5,7.5,7.5h29c4.1,0,7.5-3.4,7.5-7.5C416,91.4,412.6,88,408.5,88L408.5,88z"/>
+				</g>
+				<path id="Прямоугольник_скругл._углы_4" class="st1-tw" d="M186,118h18c2.2,0,4,1.8,4,4l0,0c0,2.2-1.8,4-4,4
+				h-18c-2.2,0-4-1.8-4-4l0,0C182,119.8,183.8,118,186,118z"/>
+				<g id="Прямоугольник_скругл._углы_4_копия">
+					<path class="st1-tw" d="M272,119c1.7,0,3,1.3,3,3s-1.3,3-3,3h-51c-1.7,0-3-1.3-3-3s1.3-3,3-3H272 M272,118h-51c-2.2,0-4,1.8-4,4
+					s1.8,4,4,4h51c2.2,0,4-1.8,4-4S274.2,118,272,118L272,118z"/>
+				</g>
+				<g id="Прямоугольник_скругл._углы_4_копия_2">
+					<path class="st1-tw" d="M310,119c1.7,0,3,1.3,3,3s-1.3,3-3,3h-19c-1.7,0-3-1.3-3-3s1.3-3,3-3H310 M310,118h-19c-2.2,0-4,1.8-4,4
+					s1.8,4,4,4h19c2.2,0,4-1.8,4-4S312.2,118,310,118L310,118z"/>
+				</g>
+				<rect id="Прямоугольник_9" x="63" y="149" class="st1-tw" width="104" height="3"/>
+				<rect id="Прямоугольник_9_копия_6" x="63" y="136" class="st1-tw" width="30" height="3"/>
+				<rect id="Прямоугольник_9_копия_5" x="63" y="122" class="st1-tw" width="24" height="5"/>
+				<rect id="Прямоугольник_9_копия" x="63" y="162" class="st1-tw" width="104" height="3"/>
+				<rect id="Прямоугольник_9_копия_2" x="63" y="175" class="st1-tw" width="104" height="3"/>
+				<rect id="Прямоугольник_9_копия_3" x="63" y="187" class="st1-tw" width="104" height="3"/>
+				<rect id="Прямоугольник_9_копия_4" x="63" y="200" class="st1-tw" width="104" height="3"/>
+				<g id="Прямоугольник_6_копия_9">
+					<path class="st1-tw" d="M166,213v30h-30v-30H166 M167,212h-32v32h32V212L167,212z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_10">
+					<path class="st1-tw" d="M94,213v30H64v-30H94 M95,212H63v32h32V212L95,212z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_13">
+					<path class="st1-tw" d="M166,288v69H64v-69H166 M167,287H63v71h104V287L167,287z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_11">
+					<path class="st1-tw" d="M130,213v30h-30v-30H130 M131,212H99v32h32V212L131,212z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_12">
+					<path class="st1-tw" d="M166,249v30h-30v-30H166 M167,248h-32v32h32V248L167,248z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_12-2">
+					<path class="st1-tw" d="M94,249v30H64v-30H94 M95,248H63v32h32V248L95,248z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_12-3">
+					<path class="st1-tw" d="M130,249v30h-30v-30H130 M131,248H99v32h32V248L131,248z"/>
+				</g>
+				<g id="Эллипс_3">
+					<circle class="st0-tw" cx="102.5" cy="80.5" r="38"/>
+					<path class="st1-tw" d="M102.5,43c20.7,0,37.5,16.8,37.5,37.5S123.2,118,102.5,118S65,101.2,65,80.5S81.8,43,102.5,43 M102.5,42
+					C81.2,42,64,59.2,64,80.5c0,21.3,17.2,38.5,38.5,38.5S141,101.8,141,80.5C141,59.2,123.8,42,102.5,42L102.5,42z"/>
+				</g>
+				<rect id="Прямоугольник_6_копия_15" x="176" y="234" class="st3-tw" width="240" height="124"/>
+			</svg>
+
+			<svg version="1.1" class="anim-screenshot" id="anim-fb" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 450 428" style="enable-background:new 0 0 450 428;" xml:space="preserve">
+				<style type="text/css">
+					.st0-fb {
+						fill: #FFFFFF;
+					}
+					.st1-fb {
+						fill: #BFC6D0;
+					}
+					.st2-fb {
+						fill: #75A0B3;
+					}
+				</style>
+				<rect id="Прямоугольник_7" x="0" y="0" class="st0-fb" width="449" height="427"/>
+				<path id="Фигура_1" class="st1-fb" d="M0,18v-1h449v1H0z"/>
+				<path id="Фигура_1_копия_2" class="st1-fb" d="M110,75v-1h330v1H110z"/>
+				<rect id="Прямоугольник_10" x="32" y="4" class="st1-fb" width="9" height="9"/>
+				<g id="Прямоугольник_11">
+					<path class="st1-fb" d="M223,5v7H46V5H223 M224,4H45v9h179V4L224,4z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_16">
+					<path class="st1-fb" d="M104,23v71H33V23H104 M105,22H32v73h73V22L105,22z"/>
+				</g>
+				<path id="Прямоугольник_скругл._углы_5" class="st1-fb" d="M33.5,119h38c0.8,0,1.5,0.7,1.5,1.5l0,0
+				c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,119.7,32.7,119,33.5,119z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия" class="st1-fb" d="M33.5,132h38c0.8,0,1.5,0.7,1.5,1.5l0,0
+				c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,132.7,32.7,132,33.5,132z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия_2" class="st1-fb" d="M33.5,146h38c0.8,0,1.5,0.7,1.5,1.5
+				l0,0c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,146.7,32.7,146,33.5,146z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия_2-2" class="st1-fb" d="M33.5,159h38c0.8,0,1.5,0.7,1.5,1.5
+				l0,0c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,159.7,32.7,159,33.5,159z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия_3" class="st1-fb" d="M33.5,173h38c0.8,0,1.5,0.7,1.5,1.5
+				l0,0c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,173.7,32.7,173,33.5,173z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия_3-2" class="st1-fb" d="M33.5,186h38c0.8,0,1.5,0.7,1.5,1.5
+				l0,0c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,186.7,32.7,186,33.5,186z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия_4" class="st1-fb" d="M33.5,200h38c0.8,0,1.5,0.7,1.5,1.5
+				l0,0c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,200.7,32.7,200,33.5,200z"/>
+				<path id="Прямоугольник_скругл._углы_5_копия_4-2" class="st1-fb" d="M33.5,213h38c0.8,0,1.5,0.7,1.5,1.5
+				l0,0c0,0.8-0.7,1.5-1.5,1.5h-38c-0.8,0-1.5-0.7-1.5-1.5l0,0C32,213.7,32.7,213,33.5,213z"/>
+				<rect id="Прямоугольник_12" x="32" y="105" class="st1-fb" width="18" height="4"/>
+				<g id="Прямоугольник_13_2_">
+					<path class="st1-fb" d="M439,18v76H111V18H439 M440,17H110v78h330V17L440,17z"/>
+				</g>
+				<g id="Прямоугольник_14">
+					<path class="st1-fb" d="M273,80v10H115V80H273 M274,79H114v12h160V79L274,79z"/>
+				</g>
+				<g id="Прямоугольник_14_копия">
+					<path class="st1-fb" d="M366,80v10h-46V80H366 M367,79h-48v12h48V79L367,79z"/>
+				</g>
+				<g id="Прямоугольник_14_копия_2">
+					<path class="st1-fb" d="M435,80v10h-63V80H435 M436,79h-65v12h65V79L436,79z"/>
+				</g>
+				<path id="Фигура_2" class="st1-fb" d="M139,79h1v12h-1V79z"/>
+				<path id="Фигура_2_копия" class="st1-fb" d="M197,91V79h1v12"/>
+				<path id="Фигура_2_копия_2" class="st1-fb" d="M258,91V79h1v12"/>
+				<g id="Прямоугольник_6_копия_17_2_">
+					<path class="st1-fb" d="M310.8,103v330h-200V103H310.8 M311.8,102h-202v332h202V102L311.8,102z"/>
+				</g>
+				<rect id="Прямоугольник_15" x="114" y="108" class="st1-fb" width="16" height="4"/>
+				<rect id="Прямоугольник_6_копия_18" x="114" y="268" class="st2-fb" width="193" height="153"/>
+				<g id="Прямоугольник_6_копия_19">
+					<path class="st1-fb" d="M439,103v74H318v-74H439 M440,102H317v76h123V102L440,102z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_23">
+					<path class="st1-fb" d="M306.8,121.3l-1.5,140H114.9l1.5-140H306.8 M307.8,120.3H115.3l-1.5,142h192.5L307.8,120.3L307.8,120.3z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_20">
+					<path class="st1-fb" d="M439,184v74H318v-74H439 M440,183H317v76h123V183L440,183z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_21">
+					<path class="st1-fb" d="M439,265v74H318v-74H439 M440,264H317v76h123V264L440,264z"/>
+				</g>
+				<g id="Прямоугольник_6_копия_22">
+					<path class="st1-fb" d="M439,346v74H318v-74H439 M440,345H317v76h123V345L440,345z"/>
+				</g>
+			</svg>
+
+
+		</div>
+		<div id="anim-tabsContainer">
+			<ul>
+				<li id="anim-tab-vk" class="anim-tab" data-number="0">ВКонтакте</li>
+				<li id="anim-tab-tw" class="anim-tab" data-number="1">Twitter</li>
+				<li id="anim-tab-fb" class="anim-tab" data-number="2">Facebook</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+
+<script type="text/javascript">
+	document.addEventListener("DOMContentLoaded", ready);
+
+	var screenshots = document.getElementsByClassName("anim-screenshot");
+	var tabs = document.getElementById("anim-tabsContainer").getElementsByTagName("li");
+
+	function ready() {
+		for (var i = 0; i < tabs.length; i++) {
+			tabs[i].addEventListener("click", choseTab);
+		}
+
+		setTabToSelected(0);
+		hideAllScreenshots();
+		showScreenshot(0);
+	}
+
+	function choseTab(event) {
+		setAllTabsToDefault();
+		setTabToSelected(event.target.dataset.number);
+		hideAllScreenshots();
+		showScreenshot(event.target.dataset.number);
+	}
+
+	function hideAllScreenshots() {
+		for (var i = 0; i < screenshots.length; i++) {
+			screenshots[i].style.display = "none";
+		}
+	}
+
+	function showScreenshot(n) {
+		screenshots[n].style.display = "block";
+	}
+
+	function setAllTabsToDefault() {
+		for (var i = 0; i < tabs.length; i++) {
+			tabs[i].className = "anim-tab";
+		}
+	}
+
+	function setTabToSelected(n) {
+		tabs[n].className = "anim-tab--selected";
+	}
+</script>
+
+</html>
